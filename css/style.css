@@ -1,0 +1,69 @@
+/* GENERAL */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing:border-box; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* HEADER */
+
+#topbar {
+    background-color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+.col-first-nav, .col-second-nav {
+    width: 50%;
+}
+
+#logo {
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+
+.menu, .menu li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.btn-blue a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    background-color: dodgerblue;
+}
+
+#second-menu {
+    padding-right: 15px;
+}
