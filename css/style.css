@@ -29,6 +29,17 @@ body {
     display: inline-block;
 }
 
+.btn-blue a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 18px;
+    background-color: #0061ff;
+}
+
+.tiny-font {
+    font-size: 13px;
+}
+
 
 /* HEADER */
 
@@ -63,16 +74,6 @@ body {
     font-weight: 600;
 }
 
-.btn-blue a {
-    text-decoration: none;
-    color: white;
-    padding: 3px 18px;
-    background-color: #0061ff;
-}
-
-.tiny-font {
-    font-size: 13px;
-}
 
 
 /* MAIN */
@@ -82,7 +83,7 @@ body {
     background-color: #b4d0e7;
 }
 
-#jumbotron .container-content {
+.container-content {
     margin: 0 100px;
 }
 
@@ -99,7 +100,7 @@ h2 {
 
 .col-40 p {
     padding-right: 70px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .col-60 {
@@ -119,4 +120,34 @@ h2 {
     margin-top: 20px;
     color: black; 
     font-size: 25px;
+}
+
+.container-content2 {
+    margin: 0 200px;
+}
+
+.container-content2 h3 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.radio {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.plan-col {
+    height: 300px;
+    width: calc(33% - 6%);
+    background-color: goldenrod;
+    border: 1px solid rgb(59, 54, 54);
+    margin-left: 6%;
+}
+
+h6 {
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(59, 54, 54);
 }
