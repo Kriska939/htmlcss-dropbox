@@ -39,6 +39,13 @@ body {
     font-size: 13px;
 }
 
+.btn-white a {
+    text-decoration: none;
+    padding: 3px 18px;
+    color: black;
+    border: 1px solid black;
+    font-size: 14px;
+}
 
 /* HEADER */
 
@@ -139,7 +146,7 @@ h2 {
 
 .plan-col {
     width: calc(100% / 3 - 40px);
-    border: 1px solid rgb(59, 54, 54);
+    border: 1px solid rgb(168, 165, 165);
 }
 
 .plan-col:nth-child(2) {
@@ -160,13 +167,14 @@ h6 {
     text-align: center;
     font-weight: 400;
     padding: 10px 0;
-    border-bottom: 1px solid rgb(59, 54, 54);
+    border-bottom: 1px solid rgb(168, 165, 165);
 }
 
 .plan-type {
     font-size: 25px;
     padding-top: 25px;
     padding-bottom: 15px;
+    font-weight: 700;
 }
 
 .plan-price {
@@ -233,4 +241,75 @@ hr {
 
 .plan-info-title {
     margin-top: 40px;
+}
+
+#enterprise-section {
+    margin-top: 50px;
+    border: 1px solid rgb(168, 165, 165);
+}
+
+.subtitle {
+    font-weight: 800; 
+    font-size: 14px; 
+    margin-bottom: 30px;
+}
+
+.enterprise-content {
+    margin-left: 20px;
+}
+
+.normal-text {
+    font-size: 14px;
+}
+
+.padded {
+    margin-top: 35px;
+    margin-right: 25px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+#card-section {
+    margin-top: 100px;
+}
+
+#img-partner {
+    width: 450px;
+}
+
+h4 {
+    font-size: 36px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.col-50 p {
+    margin-bottom: 30px;
+}
+
+#operations-section h3 {
+    margin-top: 90px;
+}
+
+.operations-row .plan-col {
+    border: none;
+}
+
+.cover {
+    background-size: cover;
+    height: 200px;
+        }
+
+#img_op1 {
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+#img_op2 {
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+#img_op3 {
+    background-image: url(../img/business-feature-multi-device.png);
 }
