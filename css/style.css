@@ -138,15 +138,14 @@ h2 {
 }
 
 .plan-col {
-    width: calc(100% / 3 - 80px);
+    width: calc(100% / 3 - 40px);
     border: 1px solid rgb(59, 54, 54);
-    margin-left: 40px;
-    height: 1000px;
 }
 
-#col1 {
-    margin-left: 0;
+.plan-col:nth-child(2) {
+    margin: 0 60px;
 }
+
 
 .plan-col p {
     font-weight: 700;
