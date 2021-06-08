@@ -352,7 +352,6 @@ h5 {
 }
 
 .bg-esempio {
-    background-color: goldenrod;
     height: 400px;
 }
 
@@ -370,3 +369,7 @@ h5 {
     margin-bottom: 35px;
 }
 
+#mini-jumbo {
+    background-color: #b4d0e7;
+    padding: 50px 0;
+}
