@@ -47,6 +47,11 @@ body {
     font-size: 14px;
 }
 
+.normal-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* HEADER */
 
 #topbar {
@@ -154,7 +159,7 @@ h2 {
 }
 
 
-.plan-col p {
+.plan-info-title {
     font-weight: 700;
 }
 
@@ -172,7 +177,6 @@ h6 {
 
 .plan-type {
     font-size: 25px;
-    padding-top: 25px;
     padding-bottom: 15px;
     font-weight: 700;
 }
@@ -256,14 +260,11 @@ hr {
 
 .enterprise-content {
     margin-left: 20px;
-}
-
-.normal-text {
-    font-size: 14px;
+    padding: 35px 0;
 }
 
 .padded {
-    margin-top: 35px;
+    margin-top: 18px;
     margin-right: 25px;
 }
 
@@ -291,10 +292,15 @@ h4 {
 
 #operations-section h3 {
     margin-top: 90px;
+    margin-bottom: 20px;
 }
 
 .operations-row .plan-col {
     border: none;
+}
+
+.operations-row {
+    margin-bottom: 50px;
 }
 
 .cover {
@@ -313,3 +319,54 @@ h4 {
 #img_op3 {
     background-image: url(../img/business-feature-multi-device.png);
 }
+
+#img_op4 {
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+
+#img_op5 {
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+
+#img_op6 {
+    background-image:url(../img/business-feature-security.png);
+}
+
+h5 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.tiny-a {
+ font-size: 12px;
+ color: dodgerblue;
+}
+
+#brand-container {
+    margin-top: 40px;
+}
+
+#designIt-logo {
+    width: 120px;
+    margin-bottom: 25px;
+}
+
+.bg-esempio {
+    background-color: goldenrod;
+    height: 400px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.grey-col {
+    background-color: #f5f5f5;
+    padding-top: 35px; 
+    padding-left: 35px;
+}
+
+.quote {
+    margin-bottom: 35px;
+}
+
