@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: black;
 }
 
 .clearfix::after {
@@ -123,7 +122,8 @@ h2 {
 }
 
 .container-content2 {
-    margin: 0 200px;
+ margin: 0 auto;
+ max-width: 1000px;
 }
 
 .container-content2 h3 {
@@ -138,11 +138,23 @@ h2 {
 }
 
 .plan-col {
-    height: 300px;
-    width: calc(33% - 6%);
-    background-color: goldenrod;
+    width: calc(100% / 3 - 80px);
     border: 1px solid rgb(59, 54, 54);
-    margin-left: 6%;
+    margin-left: 40px;
+    height: 1000px;
+}
+
+#col1 {
+    margin-left: 0;
+}
+
+.plan-col p {
+    font-weight: 700;
+}
+
+.col-content {
+    padding: 0 25px;
+
 }
 
 h6 {
@@ -150,4 +162,76 @@ h6 {
     font-weight: 400;
     padding: 10px 0;
     border-bottom: 1px solid rgb(59, 54, 54);
+}
+
+.plan-type {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.plan-price {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.plan-duration {
+    color: #707f8b;
+}
+
+.plan-duration, .plan-col li, .buy-now {
+    font-size: 14px;
+}
+
+.plan-col ul {
+    margin: 40px 0;
+}
+
+.plan-col li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-indent: -1.5em;
+    margin-left: 20px;
+}
+
+.li-icon::before {
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+margin-right: 5px;
+}
+
+.li-icon.user::before {
+    content: "\f007";
+}
+
+.li-icon.folder::before {
+    content: "\f07b";
+}
+
+.li-icon.pencil::before {
+    content: "\f303";
+}
+
+.li-icon.check::before {
+    content: "\f00c";
+    color: dodgerblue;
+}
+
+
+.btn-30 {
+    font-size: 14px;
+}
+
+.plan-col .buy-now {
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+hr {
+    width: 50px;
+    margin-bottom: 45px;
+}
+
+.plan-info-title {
+    margin-top: 40px;
 }
