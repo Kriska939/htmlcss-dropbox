@@ -71,6 +71,22 @@ body {
     background-color: #ff1c1c;
 }
 
+.bg-normalred {
+    background-color: #d5001f;
+}
+
+.bg-lightblue {
+    background-color: #b4d0e7;
+}
+
+.bg-darkblue {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
 /* HEADER */
 
 #topbar {
@@ -426,7 +442,13 @@ h5 {
 }
 
 
+#partners > [class^="col"] {
+ height: 30vw;
+}
 
+#partners .brand-container {
+    height: 100%;
+}
 .col-brand {
 width: 50%;
 height: 50%;
