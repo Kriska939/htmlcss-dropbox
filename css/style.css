@@ -95,6 +95,9 @@ body {
     line-height: 70px;
     padding-left: 15px;
     padding-right: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .col-first-nav, .col-second-nav {
@@ -127,17 +130,37 @@ body {
 #jumbotron {
     height: 600px;
     background-color: #b4d0e7;
+    padding-top: 70px;
 }
 
 .container-content {
     margin: 0 100px;
 }
 
+
 h2 {
     padding-top: 50px;
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 36px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+h5 {
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+h6 {
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(168, 165, 165);
 }
 
 .col-40 {
@@ -201,13 +224,6 @@ h2 {
 .col-content {
     padding: 0 25px;
 
-}
-
-h6 {
-    text-align: center;
-    font-weight: 400;
-    padding: 10px 0;
-    border-bottom: 1px solid rgb(168, 165, 165);
 }
 
 .plan-type {
@@ -315,12 +331,6 @@ hr {
     width: 450px;
 }
 
-h4 {
-    font-size: 36px;
-    margin-top: -10px;
-    margin-bottom: 40px;
-}
-
 .col-50 p {
     margin-bottom: 30px;
 }
@@ -367,10 +377,6 @@ h4 {
     background-image:url(../img/business-feature-security.png);
 }
 
-h5 {
-    font-size: 25px;
-    margin: 30px 0;
-}
 
 .tiny-a {
  font-size: 12px;
@@ -441,7 +447,6 @@ h5 {
     font-weight: 800;
 }
 
-
 #partners > [class^="col"] {
  height: 30vw;
 }
@@ -450,9 +455,9 @@ h5 {
     height: 100%;
 }
 .col-brand {
-width: 50%;
-height: 50%;
-position: relative;
+    width: 50%;
+    height: 50%;
+    position: relative;
 }
 
 .col-brand .brand-logo {
@@ -463,6 +468,8 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* FOOTER */
 
 footer {
     background-color: black;
